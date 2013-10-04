@@ -78,7 +78,9 @@ function($, _, Backbone, PageView, Router) {
       }
     }());
   }
-
+  Backbone.View.prototype.goTo = function (loc) {
+      appRouter.navigate(loc, true);
+  };
   //IE fix
      if ($.browser.msie) {
         String.prototype.trim = function() {

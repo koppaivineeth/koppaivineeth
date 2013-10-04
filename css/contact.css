@@ -1,0 +1,62 @@
+.contact-form-div{
+	/*height: 340px;*/
+	width: 260px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 28%, #e1e1e1 67%, #f6f6f6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(28%,#f1f1f1), color-stop(67%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 28%,#e1e1e1 67%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 28%,#e1e1e1 67%,#f6f6f6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 28%,#e1e1e1 67%,#f6f6f6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 28%,#e1e1e1 67%,#f6f6f6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+	border-radius: 12px;
+}
+.contact-form{
+	padding-bottom: 16%;
+	/*padding-left: 7%;*/
+}
+.text-name{
+
+}
+.text-phone{
+
+}
+.text-address{
+
+}
+.text-enquiry{
+	
+}
+.button-send{
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.contacts-content{
+	/*display: table-caption;*/
+	/*margin-left: 18%;*/
+	padding-top: 5%;
+	margin-bottom: 24%;
+	/*width: 324%;*/
+
+	
+}
+.inside-contact{
+	margin-left: 5%;
+}
+.g-map iframe{
+	width: 100%;
+}
+.contact-form-div p{
+	margin-top: 20%;
+	margin-bottom: 15%;
+	margin-left: 16%;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: serif;
+}
+.contact-contents{
+	margin-left: 6%;
+	letter-spacing: 1.5px;
+}

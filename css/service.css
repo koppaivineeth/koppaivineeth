@@ -1,0 +1,83 @@
+.inside-service-header{
+	height: 42px;
+}
+.inside-service-header ul li{
+	float: left;
+	/*padding-left: 2%;*/
+	list-style: none;
+	background-color: #e8e8e8;
+	border-left: 1px solid #d5d5d5;
+	width: 100px;
+	text-align: center;
+	/*margin-top: 2%;*/
+	height: 31px;
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.inside-service-header ul li:hover{
+	background: none;
+}
+.inside-service-header ul li a:hover{
+	text-decoration: none;
+	color: #0088cc;
+}
+.services-content{
+	/*height: 100px;*/
+	margin-bottom: 5%;
+}
+.flight-li{
+	border-right: 1px solid #d5d5d5;
+}
+.serv-details{
+	margin-top: 10%;
+}
+.serv-details .divi1{
+	background-image: url("../images/feature-Bus.png");
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	text-align: right;
+	background-position: -1px 7px;
+}
+.serv-details .divi2{
+	background-image: url("../images/train1.jpg");
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	text-align: left;
+	background-position: right;
+	background-size: 340px 200px;
+}
+.serv-details .divi3{
+	background-image: url("../images/Air-India.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 340px 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    width: 95%;
+}
+.serv-details a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	height: 35px;
+	font-size: 20px;
+	background-color: #0aaaaa;
+	padding-top: 1%;
+	color: white;
+	font-weight: bold;
+}
+.serv-details a:hover{
+	text-decoration: none;
+}
+.train-detail-link{
+	margin-top: 11%;
+}
+.flight-detail-link{
+	margin-top: 11%;
+}

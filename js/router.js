@@ -17,8 +17,17 @@ Router = Backbone.Router.extend({
         "home"          : "homePage",
         "aboutUs"       : "showAboutUs",
         "services"      : "showServices",
-        "infrastructure": "showInfrastructure",
-        "contactUs"     : "showContactUs"
+        "services/item1": "showServices",
+        "services/item2": "showServices",
+        "services/item3": "showServices",
+        "services/item4": "showServices",
+        "services/item5": "showServices",
+        "products"      : "showProducts",
+        "contact"       : "showContact",
+        "gallery"       : "showGallery",
+        "flightDetails" : "showHome",
+        "busDetails"    : "showHome",
+        "trainDetails"  : "showHome"
     },
 
     initialize: function () {
@@ -28,6 +37,25 @@ Router = Backbone.Router.extend({
 
     home: function () {
         this.app.showHome();
+    },
+    showServices:function(){
+        console.log("router showService");
+        this.app.showService();
+    },
+    showProducts:function(){
+        this.app.showProducts();        
+    },
+    showContact:function(){
+        this.app.showContact();
+    },
+    showGallery:function(){
+        this.app.showGallery();
+    },
+    showAboutUs:function(){
+        this.app.showAboutUs();
+    },
+    showHome:function(){
+       this.app.showHomePage();
     }
 });
 
